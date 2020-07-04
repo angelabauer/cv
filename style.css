@@ -1,0 +1,495 @@
+body
+{
+  background-color: #1b2838;
+}
+
+
+p
+{
+  color: #a2a5ae;
+}
+
+
+h1
+{
+  color: #ffffff;
+  font-size: 2.8rem;
+}
+
+
+h2
+{
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+
+h3
+{
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
+
+h4
+{
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+h5
+{
+  color: #a2a5ae;
+  font-size: 13px;
+}
+
+
+table
+{
+  background-color: #121b26;
+  color: #8f98a0;
+  width: 30%;
+  position: absolute;
+  right: 0;
+  margin-top: 56px;
+}
+
+
+th
+{
+  padding-top: 15px;
+  padding-left: 25px;
+}
+
+td
+{
+  padding: 10px 10px 8px 25px;
+   border-bottom: 1px solid #626366;
+}
+
+
+figure
+{
+  text-align: left;
+  display: inline-block;
+}
+
+
+figcaption
+{
+  color: #fff;
+  font-size: 11px;
+}
+
+
+strong
+{
+  font-weight: bold;
+  color: #fff;
+}
+
+
+em
+{
+  font-style: italic;
+  color: #fff;
+}
+
+
+button
+{
+  background: linear-gradient( to bottom, rgba(164,208,7,1) 5%, rgba(107,135,5,1) 95%);
+  border: 0;
+  padding: 4px 20px;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  color: #d2e859;
+}
+
+
+button:hover
+{
+  background: rgba(164,208,7,1);
+  color: #fff;
+}
+
+
+.bloc_page
+{
+  width: 1050px;
+  margin: auto;
+  position: relative;
+}
+
+
+header
+{
+  text-align: center;
+}
+
+
+nav
+{
+  background-color: #397198;
+  margin: 30px auto 70px;
+}
+
+
+.nav-link, .nav-tabs .nav-link.active
+{
+  background-color: #397198;
+  color: #d9dad4;
+  border-color: #2d5671;
+}
+
+
+.nav-link.active:hover
+{
+  background: linear-gradient(to bottom, #e3eaef 5%, #c7d5e0 95%);
+  color: #313131;
+}
+
+
+.nav-tabs .nav-link
+{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+.nav-tabs
+{
+  border-bottom: 1px solid;
+}
+
+
+.overview
+{
+  display: flex;
+  justify-content: center;
+}
+
+
+.miniatures
+{
+  margin-top: 8px;
+
+}
+
+
+.description
+{
+  text-align: left;
+  margin-left: 75px;
+}
+
+
+.intro
+{
+  font-size: 13px;
+  width: 85%;
+}
+
+
+.game-info
+{
+  font-size: 14px;
+  line-height: 16px;
+  color: #556772;
+}
+
+
+.game-score
+{
+  font-style: normal;
+  color: #5bc0f4;
+}
+
+
+.cell
+{
+  display: inline-block;
+  font-size: 12px;
+  background-color: #324b5f;
+  color: #5bc0f4;
+  padding: 2px 9px;
+  border-radius: 2px;
+}
+
+
+.cell:hover
+{
+  text-decoration: none;
+  background-color: #23eae6;
+  color: #fff;
+}
+
+
+.hirearea
+{
+  margin-top: 150px;
+  margin-bottom: 130px;
+  background:linear-gradient(135deg, rgba(97,100,101,0.3) 0%,rgba(226,244,255,0.3) 100%);
+  padding: 15px 10px 20px 23px;
+  width: 65%;
+  position: relative;
+}
+
+
+.hirearea p
+{
+  font-size: 21px;
+  font-family: "Motiva Sans", Sans-serif;
+  color: #fff;
+}
+
+
+.hirearea i
+{
+  position: absolute;
+  right: 50px;
+}
+
+
+.hirearea button
+{
+  position: absolute;
+  right: 20px;
+}
+
+
+#project
+{
+  margin-bottom: 130px;
+}
+
+
+.project_list a
+{
+  display: inline-block;
+  background:linear-gradient(135deg, rgba(97,100,101,0.3) 0%,rgba(226,244,255,0.3) 100%);
+  margin-bottom: 2px;
+  padding: 1px 3px 2px 15px;
+  width: 65%;
+  color: #a8b2ba;
+}
+
+
+.project_name_gold:hover
+{
+  background-color: #FFD700;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.project_name:hover
+{
+  background-color: #66c0f4;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.btn-github
+{
+  margin-top: 7px;
+  margin-left: 510px;
+}
+
+
+.fa-check
+{
+  color: #5bc0f4;
+}
+
+
+#proexp
+{
+  display: flex;
+}
+
+
+aside
+{
+  margin-top: 390px;
+  margin-left: 60px;
+}
+
+
+.to-skills
+{
+  background-color: #121b26;
+  color: #8f98a0;
+  padding: 16px;
+}
+
+
+.to-skills a
+{
+  background-color: #203749;
+  color: #67c1f5;
+  text-align: center;
+  text-decoration: none;
+  height: 64px;
+  padding-top: 14px;
+  width: 64px;
+  font-size: 13px;
+  float: right;
+}
+
+
+.exp
+{
+  width: 65%;
+}
+
+
+.detail
+{
+  margin-bottom: 80px;
+}
+
+
+.capsul
+{
+  display: inline-block;
+  text-align: center;
+  padding-left: 13px;
+}
+
+
+.contact
+{
+  background-color: #121b26;
+  width: 25%;
+  color: #8f98a0;
+  position: absolute;
+  right: 0;
+  padding: 16px;
+}
+
+
+.contact a
+{
+  display: block;
+  background:linear-gradient(135deg, rgba(97,100,101,0.3) 0%,rgba(226,244,255,0.3) 100%);
+  text-decoration: none;
+  margin-bottom: 2px;
+  padding: 1px 5px 2px 15px;
+  color: #a8b2ba;
+}
+
+
+.contact a:hover
+{
+  background-color: #66c0f4;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+#aboutme
+{
+  width: 65%;
+  margin-bottom: 130px;
+}
+
+
+#halloffame
+{
+  margin-bottom: 130px;
+  position: relative;
+}
+
+
+.seeall
+{
+  position: absolute;
+  right: 110px;
+  display: inline-block;
+  background-color: #203749;
+  color: #67c1f5;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 40px;
+  padding: 2px 9px 3px;
+  font-size: 0.9rem;
+}
+
+
+.seeall:hover
+{
+  color: #23eae6;
+  text-decoration: none;
+}
+
+
+.skills_page
+{
+  width: 1050px;
+  margin: 100px auto auto;
+}
+
+
+.achievements
+{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+
+.float
+{
+  padding-right: 10px;
+}
+
+
+.block
+{
+  background-color: #080c11;
+  padding: 17px 6px 6px 6px;
+  width: 95%;
+}
+
+
+.html-color
+{
+  color: orange;
+}
+
+
+.css-color
+{
+  color: #28a4d8;
+}
+
+
+.halloffame_page
+{
+  /* width: 1050px; */
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+.halloffame-intro
+{
+  margin-top: 50px;
+  color: #5bc0f4;
+}
+
+
+.card-people
+{
+  margin-top: 70px;
+}
+
+
+.personal-card
+{
+  padding-bottom: 4%;
+}
