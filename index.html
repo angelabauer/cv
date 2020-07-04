@@ -1,68 +1,330 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Angela's Personal Site</title>
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
 
-  <body>
-    <table cellspacing="20">
+<head>
+  <meta charset="utf-8">
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+  <!-- JavaScript Files -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <title>Ismaili Oualid™ on Steam</title>
+</head>
+
+<body>
+
+  <div class="bloc_page">
+
+    <header>
+
+      <nav>
+        <ul class="nav nav-tabs">
+          <li class="nav-item"><a class="nav-link active" href="#homepage">Homepage</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#project">Project</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#proexp">Professional experience</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#aboutme">About me</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#halloffame">Hall of Fame</a></li>
+        </ul>
+      </nav>
+
+      <div class="overview">
+        <div class="carousel">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="5000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <a href="images/dubaifull.jpg"><img src="images/dubaihighlight.jpg" alt="Dubai"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="images/jehutyfull.jpg"><img src="images/jehutyhighlight.jpg" alt="Image Z.O.E"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="images/3droomfull.jpg"><img src="images/3droomhighlight.jpg" alt="Image 3D room"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="images/cakefull.jpg"><img src="images/cakehighlight.jpg" alt="Image Cake"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="images/dbdperkfull.jpg"><img src="images/dbdperkhighlight.jpg" alt="Image dbd perk"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="miniatures">
+            <a href="images/dubaifull.jpg"><img src="images/dubaiminiature.jpg" alt="Dubai"></a>
+            <a href="images/jehutyfull.jpg"><img src="images/jehutyminiature.jpg" alt="Zone of the Enders"></a>
+            <a href="images/3droomfull.jpg"><img src="images/3droomminiature.jpg" alt="3D room"></a>
+            <a href="images/cakefull.jpg"><img src="images/cakeminiature.jpg" alt="Cake"></a>
+            <a href="images/dbdperkfull.jpg"><img src="images/dbdperkminiature.jpg" alt="Team Player"></a>
+          </div>
+        </div>
+
+        <div class="description">
+          <a href="images/photooriginalsize.jpg"><img src="images/photoprofil.jpg" alt="Photo de profil"></a>
+          <p class="intro">I would be very happy to share with you my skills and insights related to web deveolpment</p>
+          <p class="game-info">All Review : <em class="game-score">Very Positive</em></p>
+          <p class="game-info">Release date : <em class="game-score">1 July 2019</em></p>
+          <p class="game-info">Developeur : <em class="game-score">Ismaili Oualid</em></p>
+          <p class="game-info">Hosting : <em class="game-score">Github</em></p>
+          <p class="game-info">tags : </p>
+
+          <div class="tags">
+            <a class="cell" href="#">Anime</a> <a class="cell" href="#">Video Game</a> <a class="cell" href="#">High-Tech</a>
+            <a class="cell" href="#">Food lover</a> <a class="cell" href="#">Team Player</a> <a class="cell" href="#">Numismatic</a>
+            <a class="cell" href="#">3D Blender</a>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <div class="hirearea">
+      <p>Hire Ismaili Oualid The Complete Edition <i class="fab fa-windows"></i></p>
+      <a href="mailto:bijoualid-@hotmail.fr"><button type="button" name="button">Hire</button></a>
+    </div>
+
+    <table>
       <tr>
-        <td><img src="images/angela.png" alt="angela profile picture"></td>
-        <td><h1>Angela Yu</h1>
-        <p><em>Founder and CTO of <strong><a href="https://www.appbrewery.co/">The App Brewery</a></strong>.</em></p>
-        <p>I am an iOS and Web Developer. I ❤️ coffee and brew my own beers.</p></td>
+        <th>Languages:</th>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Oral</td>
+        <td>Written</td>
+      </tr>
+      <tr>
+        <td>French</td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+      </tr>
+      <tr>
+        <td>English</td>
+        <td><i class="fas fa-check"></i></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Moroccan dialect</td>
+        <td><i class="fas fa-check"></i></td>
+        <td></td>
       </tr>
     </table>
-    <hr>
-    <h3>Books and Teaching</h3>
-    <ul>
-      <li>The Complete iOS App Development Bootcamp</li>
-      <li>The Complete Web Development Bootcamp</li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-      <thead>
-        <tr>
-          <th>Dates</th>
-          <th>Work</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2009-2010</td>
-          <td>Researcher at The Institute of Cognitive Neurosciences</td>
-        </tr>
-        <tr>
-          <td>2010-2013</td>
-          <td>Lead Developer at Tempo App</td>
-        </tr>
-        <tr>
-          <td>2013-2015</td>
-          <td>Clinical Doctor at the National Health Service</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-      <tr>
-        <td>iOS Development</td>
-        <td>⭐️⭐️⭐️⭐️⭐️</td>
-      </tr>
-      <tr>
-        <td>Web Development</td>
-        <td>⭐️⭐️⭐️⭐️⭐️</td>
-      </tr>
-      <tr>
-        <td>Photography</td>
-        <td>⭐️⭐️</td>
-      </tr>
-    </table>
-    <hr>
-    <a href="hobbies.html">My Hobbies</a>
-    <a href="contact-me.html">Contact Me</a>
-  </body>
+
+    <section id="project">
+        <h2>Project</h2>
+        <img src="images/hr_rule.png" />
+        <div class="project_list">
+          <a class="project_name_gold" href="https://github.com/Bijoualid/CvAppBrewery" target="_blank">CvAppBrewery</a>
+          <a class="project_name_gold" href="https://bijoualid.github.io/Hall-of-Fame/" target="_blank">Hall of Fame</a>
+          <a class="project_name_gold" href="https://bijoualid.github.io/Hall-of-Fame-Twitch-Edition/" target="_blank">Hall of Fame Twitch Edition</a>
+          <a class="project_name_gold" href="#" target="_blank">Lav'Auto Prestige38</a>
+          <a class="project_name_gold" href="https://steamcommunity.com/groups/student-community" target="_blank">The Student Community</a>
+          <a class="project_name_gold" href="https://bijoualid.github.io/OC_P2/" target="_blank">School project 1</a>
+          <a class="project_name_gold" href="https://bijoualid.github.io/OC_P3/" target="_blank">School project 2</a>
+          <a class="project_name" href="https://bijoualid.github.io/Fylo/" target="_blank">Fylo</a>
+          <a class="project_name" href="https://bijoualid.github.io/Huddle/" target="_blank">Huddle</a>
+          <a class="project_name" href="https://bijoualid.github.io/CvOldVersion/" target="_blank">CvOldVersion</a>
+          <a class="project_name" href="https://bijoualid.github.io/LimeoLicious/" target="_blank">LimeoLicious</a>
+          <a class="project_name" href="https://bijoualid.github.io/LavenderDays/" target="_blank">LavenderDays</a>
+          <a class="project_name" href="https://bijoualid.github.io/FreshIdeas/" target="_blank">FreshIdeas</a>
+          <a class="project_name" href="https://bijoualid.github.io/Flowers/" target="_blank">Flowers</a>
+          <a class="project_name" href="https://bijoualid.github.io/Butterflybrilliance/" target="_blank">Butterflybrilliance</a>
+        </div>
+
+        <div class="btn-github">
+          <a href="https://github.com/Bijoualid" target="_blank"><button type="button">See on Github</button></a>
+        </div>
+
+    </section>
+
+    <section id="proexp">
+      <div class="exp">
+        <h2>Professional experience</h2>
+        <img src="images/hr_rule.png" />
+        <div class="detail">
+          <p><em>2020</em></p>
+          <h3>Lav'Auto Prestige 38</h3>
+          <p>Creating the website of the company Lav'Auto Prestige38 specializing in vehicle cleaning</p>
+        </div>
+
+        <div class="detail">
+          <p><em>2019 -</em></p>
+          <h3>Support web development</h3>
+          <p>Since I discovered the discord, I love to share my knowledge. That is why I am used to helping and encouraging all those
+            who embark on this adventure of web development.
+            I'm also creating a discord group for that.
+          </p>
+        </div>
+
+        <div class="detail">
+          <p><em>2015 -</em></p>
+          <h3>Support children with their homeworks</h3>
+          <p>As a child, my mother always found a way to "offer" me some help for my homework.
+            Today, it's my turn to "offer" my help to others children specially in my family, where i have plently little cousins.<br>
+            So this why i am able to adjust myself fittingly to different situation
+            (when they're playing and don't want to work or when they play the sleeping game...) and person.</p>
+            <figure>
+              <div class="capsul">
+                <a href="images/original_1.jpg"><img src="images/mini_1.jpg" alt="Little cousin"></a>
+                <figcaption>look at them</figcaption>
+              </div>
+              <div class="capsul">
+                <a href="images/original_2.jpg"><img src="images/mini_2.jpg" alt="Little cousin"></a>
+                <figcaption>omae wa mou homeworkdeiru</figcaption>
+              </div>
+              <div class="capsul">
+                <a href="images/original_3.jpg"><img src="images/mini_3.jpg" alt="Little cousin"></a>
+                <figcaption>Nyani ?!</figcaption>
+              </div>
+              <div class="capsul">
+                <a href="images/original_4.jpg"><img src="images/mini_4.jpg" alt="Little cousin"></a>
+                <figcaption>What (panicked breathing) ?!</figcaption>
+              </div>
+              <div class="capsul">
+                <a href="images/original_5.jpg"><img src="images/mini_5.jpg" alt="Little cousin"></a>
+                <figcaption><img src="images/tobecontinued.png"></figcaption>
+              </div>
+
+            </figure>
+        </div>
+
+        <div class="detail">
+          <p><em>2013-2016</em></p>
+          <h3>Work in fast-food restaurants</h3>
+          <p>Prepare the ingredients, make the sandwiches (also taste them), receive the customers, clean the room,<br>
+          At your service !<br>
+          (to see me in the original shirt of the fast-food, you must hire me first)</p>
+        </div>
+
+      <div class="detail">
+        <p><em>2010 -</em></p>
+        <h3>Computer repair</h3>
+        <p>Someone unintentionally blocks the computer, you are a 16-year-old teenager, playstation 3 is booming...
+          What are you doing ? Spend money on a repair, or try to repair it yourself ?
+          Well, the computer is blocked so whatever happens, i have nothing to loose,
+          you can't (i think, i hope...) block it more (right ?)<br>
+          Since, i started to offer my help to solve different (minor) issues, using different software to help me:
+          Malwarebyte, Adwcleaner, Hiren's boot...</p>
+      </div>
+
+      <div class="detail">
+        <p><em>2009 July - August</em></p>
+        <h3>Learning tilesetter's job</h3>
+        <p>When you're a teenager, it's always good to see what others peoples do. This is why, when i was 15,
+          I volunteered for 2 months to help lay tiles for a mosque and a restaurant.</p>
+      </div>
+    </div>
+
+
+    <aside>
+      <div class="to-skills">
+        <p>Includes 47 Skills Achievements</p>
+        <img src="images/wow.png" alt="Wordpress" title="Use WoW logo instead of Wordpress logo">
+        <img src="images/lavauto.jpg" alt="Logo Lav'Auto" title="Create your first website for a customer">
+        <img class="floatant" src="images/10.jpg" alt="HTML/CSS" title="Achieve 10 projects with HTML/CSS">
+        <a href="skills.html">View<br> all</a>
+      </div>
+    </aside>
+
+    </section>
+
+    <div class="contact">
+        <a href="mailto:bijoualid-@hotmail.fr">Email</a>
+        <a href="https://github.com/Bijoualid" target="_blank">Github</a>
+        <a href="https://discord.gg/6YkGZJD" target="_blank">Discord</a>
+        <a href="https://twitter.com/IsmailiOualid" target="_blank">Twitter</a>
+        <a href="https://steamcommunity.com/profiles/76561198370060632/" target="_blank">Steam</a>
+    </div>
+
+    <section id="aboutme">
+
+      <h2>About me</h2>
+      <img src="images/hr_rule.png" />
+      <p>My name is Oualid, I am 25 years old and currently studying multimedia project management and web development (php)
+        at the Openclassroom school in France. Openclassroom is a mooc offering degree courses.
+      <p/>
+      <p>Since I am in middle school I have had to stop traditional school and start studying at home because of certain medical
+          conditions.
+          The fact that I have always studied without being directly surrounded by a teacher has therefore made me much more autonomous,
+          I always manage to solve the difficulties I may face. It also allowed me to improve my concentration and stay focused on the
+          tasks assigned to me.</p>
+      <p>
+        After high school, I wanted to continue teaching in the same way, which is why I joined the mooc Openclassroom and continue
+        to train at a distance.
+      </p>
+
+      <p>However, distance learning also has a major disadvantage, which I did not see coming: the lack of self-confidence.
+        Despite the fact of validating school projects, when I looked at the job offers I couldn't help but think to myself:
+        but do I really have the ability to achieve the things mentioned in these job offers, especially when I don't understand
+        certain terms?
+      </p>
+
+      <p>This experience made me realize that I didn't really know where to go once I graduated.
+        That's why I started looking for other courses on the Internet, in order to acquire more skills.<br>
+        As I watched some lessons, I could see how pleasant it could be to teach, I also remembered a word that someone said: <em class="citation">the best way to learn is to teach.</em>
+        That's why I also joined some discords and started helping students with their codes. I spent whole evenings helping students and
+        what a joy to see a student understand, succeed and above all gain self-confidence but also to be thanked in return.
+      </p>
+
+      <p>
+        This experience has allowed me to open my eyes to what I really want to do, and especially how.
+        What I want to do, is give or restore confidence to anyone who may doubt their ability.
+        Whatever the school, the bootcamp, the training they have chosen, all these people will be able to benefit from a service
+        that will restore their self-confidence and help them to progress.
+      </p>
+
+      <p>
+        I have a good knowledge of HTML/CSS, as well as Wordpress CMS.<br>
+        I also know the basics of php language as well as POO, Javascript and Bootstrap.
+      </p>
+
+      <p>
+        I only want to progress and learn new things while being useful. I am not a random student who, once his task is completed,
+        will go home and start his routine again the next day.<br>
+        I'm the little brother you can count on to go pick up a pizza, go shopping, pick up the kids at school and finish all
+        the tasks you give him anytime (or maybe not in the middle of a game).
+      </p>
+
+      <p>
+        Now, i know that being a beginner with a lot of will isn't enough sometimes.
+        My goal is not to find a internship or a work at all cost. I want to be useful with my abilities and my defaults.
+      </p>
+
+      <p>That's why, if my profile doesn't match your expectations, you can check the
+        <a href="#halloffame"><strong>Hall of Fame</strong></a> and see if someone matches you.<br>
+        These wonderful people will give you the best of themselves and are just waiting to be contacted.<br>
+        So take a look at it.
+      </p>
+
+    </section>
+
+    <section id="halloffame">
+
+      <h2>Hall of Fame</h2>
+      <img src="images/hr_rule.png" />
+
+      <div class="thumbnailpeople">
+        <a href="#"><img src="images/insertpichere1.jpg" alt="People 1" title="First name Last name"></a>
+        <a href="#"><img src="images/insertpichere2.jpg" alt="People 2" title="First name Last name"></a>
+        <a href="#"><img src="images/insertpichere3.jpg" alt="People 3" title="First name Last name"></a>
+        <a href="#"><img src="images/insertpichere4.jpg" alt="People 4" title="First name Last name"></a>
+        <a href="#"><img src="images/insertpichere5.jpg" alt="People 5" title="First name Last name"></a>
+      </div>
+
+      <a class="seeall" href="https://bijoualid.github.io/Hall-of-Fame/">See all</a>
+
+    </section>
+
+  </div>
+
+</body>
+
 </html>
